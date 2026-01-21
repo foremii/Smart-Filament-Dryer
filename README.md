@@ -6,8 +6,8 @@ This uses a Bosch BME688 Temperature, Humidity and Gas sensor for a Climate Ther
 The Fan and Heater stay wired as OEM, but the Relay controls the power for the heater and the 5V regulator provides 5v power for the ESP32 from the 24V factory input. Slow PWM output is limited to 85% to protect the heater, not sure it's really needed. It takes a while to heat a full 1kg spool up to 140F, but so did the factory one and it helps prevent warping. Once the spool is fully warmed up it helps to unplug the front filament feed hole for about 10min, then close it. It's best to let the spool cool off in a sealed vacuum, so put the bottom plugs in to let it cool down. 
 
 Next steps - 
-Fan On/Off Control
-Fan Tach sensing
+Fan On/Off Control,
+Fan Tach sensing,
 Display
 
 ![Alt text](thermostat.png?raw=true "Thermostat")
