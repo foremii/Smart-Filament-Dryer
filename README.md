@@ -13,7 +13,7 @@ Display
 ![Alt text](thermostat.png?raw=true "Thermostat")
 ![Alt text](pid.png?raw=true "PID")
 ![Alt text](Temp.png?raw=true "Temperature")
-![Alt text](Gas.png?raw=true "Gas")
+![Alt text](gas.png?raw=true "Gas")
 
 # BOM
 ESP32 Board
