@@ -1,6 +1,6 @@
 # Smart-Filament-Dryer
 ![Alt text](faceplate.png?raw=true "Faceplate")
-ESPHOME project that automates a 3dprinting Filament dryer using an esp32. This was based around a Polydryer and it's original heater and power supply and maintains the original thermal fuse for safety. 
+ESPHome project that automates a 3d printing filament dryer using an esp32. This was based around a Polydryer and it's original heater and power supply and maintains the original thermal fuse for safety. 
 
 This uses a Bosch BME688 Temperature, Humidity and Gas sensor for a Climate Thermostat controlling a slow PWM pid controller to a relay for the stock 24V heating element in a PolyDryer. This allows you to data log humidity, temperature or the readings of any sensor you can think of that is compatible with ESPHome if you know how to connect it.
 
